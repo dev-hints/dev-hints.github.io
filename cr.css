@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@600&family=Secular+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("/images/banner.jpg") no-repeat;
+    background-size: cover;
+}
+
+.container {
+
+    padding: 20px;
+    margin-bottom: 150px;
+}
+
+.container a {
+    text-decoration: none;
+    color: green;
+
+}
+
+.container a h1 {
+    text-align: center;
+    font-family: 'Secular One', sans-serif;
+    font-size: 48px;
+
+}
+
+
+.box {
+
+    text-align: center;
+    padding-left: 12%;
+}
+
+.crt {
+    background-color: burlywood;
+    border: 5px solid black;
+    border-radius: 28px;
+    height: fit-content;
+    width: 80%;
+    padding: 25px;
+
+}
+
+.crt a {
+    text-decoration: none;
+
+}
+
+.crt a p {
+    font-family: 'Exo 2', sans-serif;
+    color: whitesmoke;
+
+}
+
+.social {
+    margin-top: 25px;
+    padding: 1px;
+    text-align: center;
+
+}
+
+.social .fa {
+
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.social .fa-linkedin {
+    margin: 25px;
+    border: 5px solid white;
+    border-radius: 360px;
+    background: black;
+    color: green;
+
+}
+
+.social .fa-github {
+    margin: 25px;
+    border: 5px solid white;
+    border-radius: 360px;
+    background: black;
+    color: green;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    text-align: center;
+    background-color: black;
+    border: 5.4px solid black;
+}
+
+.footer p {
+    padding: 8px;
+    font-family: 'Exo 2', sans-serif;
+    font-size: large;
+    color: white;
+}
