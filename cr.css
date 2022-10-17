@@ -33,7 +33,9 @@ body {
 .box {
 
     text-align: center;
-    padding-left: 12%;
+    display: flex;
+    justify-content: center;
+    
 }
 
 .crt {
