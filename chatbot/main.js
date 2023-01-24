@@ -76,7 +76,7 @@ $(function () {
                 isInArray(wru, lastmsg) == true ? (smsg = "I am your personal assistant made by Ayush", k = smsg) :
                     isInArray(bad, lastmsg) == true ? (smsg = "Thanks for your precious feedback, I'll try to improve that.", k = smsg) :
                         isInArray(wrud, lastmsg) == true ? (k = "Nothing special and you? ", smsg = k + "☺️") :
-                            isInArray(bye, lastmsg) == true ? (smsg = "I hope you like my code..... Bye", k = smsg,
+                            isInArray(bye, lastmsg) == true ? (smsg = "Bye", k = smsg,
                                 setTimeout(function () { $(".status").html("last seen today at " + time) }, 6000),
                                 setTimeout(function () { $(".status").css("margin-left", "-50") }, 8000)) :
                                 isInArray(th, lastmsg) == true ? (k = "You're Welcome ", smsg = k + "") :
@@ -93,7 +93,7 @@ $(function () {
                                                                             isInArray(like, lastmsg) == true ? (smsg = p, k = p) :
                                                                                 isInArray(good, lastmsg) == true ? (smsg = "Nice to hear it. 😊", k = "Nice to hear it. ") :
                                                                                     isInArray(hru, lastmsg) == true ? (smsg = "I'm good, What about you ? ", k = smsg) :
-                                                                                        lastmsg.substring(0, 6) == "SEARCH" ? (search = lastmsg.slice(7), smsg = "<b align='center'>This are the top results </b><nav class='back'  onclick='history.back()'>&larr;</nav><nav class='forword' onclick='history.forward()'>&rarr;</nav><iframe style = 'z-index:1;overflow-x:scroll; overflow-y:scroll;' scrolling='yes' height='300px' width='100%' src='http://www.bing.com/search?q=" + search + "'></iframe>", k = "This are the, Top results") :
+                                                                                        lastmsg.substring(0, 6) == "SEARCH" ? (search = lastmsg.slice(7), smsg = "<b align='center'>This are the top results </b><nav class='back'  onclick='history.back()'>&larr;</nav><nav class='forword' onclick='history.forward()'>&rarr;</nav><iframe style = 'z-index:1;overflow-x:scroll; overflow-y:scroll;' scrolling='yes' height='300px' width='100%' src='https://www.bing.com/search?q=" + search + "'></iframe>", k = "This are the, Top results") :
                                                                                             (smsg = "Sorry, I have no answer for that. If you say so I can search for you. To search, <br> type <q><b> Search Your keyword </b></q> for example type : <b>Search GitHub</b>", k = "Sorry, I have no answer for that.   If you say, so I can search for you. To search,type,Search Your keyword,for example, type, Search github, ");
         para = $("<div class='message received'>" + smsg + "<span class='metadata'> <span class='time'>" + time + "</span></span></div>");
         setTimeout(function () {
