@@ -1,1 +1,26 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+body { 
+  display: inline;
+  background-color: #e1f3db;
+} 
+h1{ 
+  background-color: #e1f3db;
+  text-align: center;
+  color: green;
+  margin: 0.2px;
+  padding: 1px;
+}
+#footer{
+margin: 10px;
+text-align: center;
+}
+h1{
+  font-family: "Exo 2", serif;
+  font-weight: 900;
+  font-size: 95px;
+  font-style: normal;
+  text-align: center;
+}
+.gcse-search {
+  display: block;
+}
